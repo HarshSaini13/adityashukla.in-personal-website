@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.menu-icon .line1 {
+  height: 2.8px;
+  width: 15px;
+  background-color: white;
+}
+
+.menu-icon .line2 {
+  width: 22.5px;
+  height: 2.8px;
+  margin: 4px 0px;
+  background-color: white;
+}
+
+.menu-icon .line3 {
+  height: 2.8px;
+  width: 15px;
+  background-color: white;
+}
+
+.intro {
+  padding: 40px 30px 50px;
+  background-color: #120937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+.container-intro {
+  text-align: center;
+  margin-top: 62px;
+}
+
+.container-intro h1 {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+}
+
+.container-intro p {
+  color: #d9d9ff;
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+.illustration-intro > img {
+  width: 100%;
+}
+
+.emailSubscription form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+form input {
+  background-color: #190d4d;
+  border-radius: 8px;
+  border: none;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #d9d9ff;
+  text-align: center;
+}
+
+form button {
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  background: linear-gradient(
+    78.1deg,
+    #553dd5 8.49%,
+    #3a72df 53.29%,
+    #00d4ff 92.08%
+  );
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}

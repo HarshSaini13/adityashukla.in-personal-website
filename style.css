@@ -225,7 +225,8 @@ form button {
 .monograph h6 {
   color: #120937;
   text-decoration: underline solid #5b3adf80 1px;
-  text-underline-offset: 4.5px;
+  /* text-underline-offset: 4.5px; */
+  text-underline-position: under;
 }
 
 .notebook {
@@ -270,5 +271,6 @@ form button {
 .notebook h6 {
   color: #ffffff;
   text-decoration: underline solid #00d4ff80 1px;
-  text-underline-offset: 4.5px;
+  /* text-underline-offset: 4.5px; */
+  text-underline-position: under;
 }

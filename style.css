@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0px;
@@ -40,6 +40,7 @@
 .intro {
   padding: 40px 30px 50px;
   background-color: #120937;
+  border-radius: 0px 0px 10px 10px;
 }
 
 header {
@@ -103,4 +104,171 @@ form button {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   cursor: pointer;
+}
+
+.monograph {
+  padding: 50px 30px;
+}
+
+.writingSection-intro .sectionTag {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 30px;
+}
+
+.monograph .sectionTag {
+  color: #5a3adf;
+}
+
+.writingSection-intro h2 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.monograph h2 {
+  color: #0a2540;
+}
+
+.writingSection-intro p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.monograph .writingSection-intro p {
+  color: #5d6b83;
+}
+
+.writingsBtn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 25px;
+  padding: 9px 24px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.monograph .writingsBtn {
+  color: #f7f9fc;
+  background: #5a3adf;
+}
+
+.post h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.post p {
+  margin-top: 5px;
+}
+
+.monograph .post h4 {
+  color: #120937;
+}
+
+.post .time {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.monograph .post .time {
+  color: #5a3adf;
+}
+
+.post .author {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.monograph .post .author {
+  color: #5d6b83;
+}
+
+.latest {
+  margin-top: 30px;
+}
+
+.latest h5 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.latest h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.monograph h5 {
+  color: #5a3adf;
+}
+
+.monograph h6 {
+  color: #120937;
+  text-decoration: underline solid #5b3adf80 1px;
+  text-underline-offset: 4.5px;
+}
+
+.notebook {
+  padding: 50px 30px;
+  background: #0a2540;
+  border-radius: 10px;
+}
+
+.notebook .sectionTag {
+  color: #00d4ff;
+}
+
+.notebook h2 {
+  color: #ffffff;
+}
+
+.notebook .writingSection-intro p {
+  color: #e5fbff;
+}
+
+.notebook .writingsBtn {
+  background: #00d4ff;
+  color: #0a2540;
+}
+
+.notebook h4 {
+  color: #ffffff;
+}
+
+.notebook .time {
+  color: #00d4ff;
+}
+
+.notebook .author {
+  color: #e5fbff;
+}
+
+.notebook h5 {
+  color: #00d4ff;
+}
+
+.notebook h6 {
+  color: #ffffff;
+  text-decoration: underline solid #00d4ff80 1px;
+  text-underline-offset: 4.5px;
 }

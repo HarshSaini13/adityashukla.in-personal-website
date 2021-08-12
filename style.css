@@ -148,7 +148,7 @@ form button {
 .writingsBtn {
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 25px;
   padding: 9px 24px;
   display: inline-block;
@@ -224,7 +224,7 @@ form button {
 
 .monograph h6 {
   color: #120937;
-  text-decoration: underline solid #5b3adf80 1px;
+  text-decoration: underline solid #ac99f4 1px;
   /* text-underline-offset: 4.5px; */
   text-underline-position: under;
 }
@@ -270,7 +270,44 @@ form button {
 
 .notebook h6 {
   color: #ffffff;
-  text-decoration: underline solid #00d4ff80 1px;
+  text-decoration: underline solid #007fa3 1px;
   /* text-underline-offset: 4.5px; */
   text-underline-position: under;
+}
+
+.picture {
+  margin-top: 35px;
+  max-width: 460px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.picture img {
+  width: 100%;
+  display: block;
+}
+
+.picture .imgOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 460px;
+  height: 100%;
+  transition: 300ms;
+}
+
+.picture .imgOverlay:hover {
+  background: none;
+}
+
+.monograph .imgOverlay {
+  background: #18113180;
+}
+
+.notebook .imgOverlay {
+  background: #0a254080;
 }

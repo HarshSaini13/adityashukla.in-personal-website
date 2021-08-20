@@ -85,12 +85,12 @@ form input {
   height: 50px;
   font-size: 16px;
   font-family: "Inter", sans-serif;
-  color: #d9d9ff;
+  /* color: #d9d9ff; */
   text-align: center;
 }
 
 form input:focus {
-  border: 1px solid #5a3adf;
+  border: 2px solid #5a3adf;
   color: #ffffff;
   outline: none;
 }
@@ -241,10 +241,9 @@ form button:hover {
   font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 16px;
-  line-height: 25px;
+  line-height: 24px;
   margin-top: 15px;
   display: inline-block;
-  transition: 300ms;
 }
 
 .monograph h5 {

@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
 }
 
 .hidden {
@@ -44,7 +44,6 @@
 .intro {
   padding: 40px 30px 50px;
   background-color: #120937;
-  border-radius: 0px 0px 10px 10px;
 }
 
 header {
@@ -53,10 +52,12 @@ header {
   font-family: "DM Sans", sans-serif;
   letter-spacing: 0.1em;
   color: white;
+  border-bottom: 1px solid #2a1e5b;
 }
 
 .name {
   font-weight: 700;
+  font-size: clamp(16px, 1.25vw, 18px);
 }
 
 .container-intro {
@@ -67,14 +68,15 @@ header {
 .container-intro h1 {
   color: white;
   font-family: "DM Sans", sans-serif;
-  font-size: 40px;
+  font-size: clamp(40px, 3.3333333333333335vw, 48px);
+  line-height: 56px;
 }
 
 .container-intro p {
   color: #d9d9ff;
-  font-family: "Inter", sans-serif;
   margin-top: 20px;
   line-height: 26px;
+  font-size: 18px;
 }
 
 .illustration-intro > img {
@@ -95,7 +97,7 @@ form input {
   border: none;
   height: 50px;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: "DM Sans", sans-serif;
   /* color: #d9d9ff; */
   text-align: center;
 }
@@ -124,7 +126,7 @@ form button {
   );
   color: #ffffff;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: "DM Sans", sans-serif;
   cursor: pointer;
   transition: 300ms;
 }
@@ -143,9 +145,8 @@ form button:hover {
 }
 
 .writingSection-intro .sectionTag {
-  font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: clamp(14px, 1.1111111111111112vw, 16px);
   letter-spacing: 0.05em;
   line-height: 30px;
 }
@@ -158,7 +159,7 @@ form button:hover {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: clamp(24px, 2.5vw, 36px);
 }
 
 .monograph h2 {
@@ -166,10 +167,9 @@ form button:hover {
 }
 
 .writingSection-intro p {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: clamp(16px, 1.25vw, 18px);
+  line-height: clamp(24px, 1.875vw, 27px);
   margin-top: 15px;
 }
 
@@ -178,14 +178,13 @@ form button:hover {
 }
 
 .writingsBtn {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: clamp(15px, 1.1111111111111112vw, 16px);
   margin-top: 25px;
   padding: 9px 24px;
   display: inline-block;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 200ms;
 }
 
@@ -201,7 +200,7 @@ form button:hover {
 .post h4 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   margin-top: 15px;
 }
@@ -215,9 +214,8 @@ form button:hover {
 }
 
 .post .time {
-  font-family: "Inter", sans-serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: clamp(14px, 1.1111111111111112vw, 16px);
   line-height: 20px;
 }
 
@@ -226,9 +224,8 @@ form button:hover {
 }
 
 .post .author {
-  font-family: "Inter", sans-serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: clamp(14px, 1.1111111111111112vw, 16px);
   line-height: 20px;
 }
 
@@ -248,7 +245,6 @@ form button:hover {
 }
 
 .latest h6 {
-  font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -275,25 +271,24 @@ form button:hover {
 
 .notebook {
   padding: 50px 30px;
-  background: #0a2540;
-  border-radius: 10px;
+  background: linear-gradient(180deg, #f1faff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .notebook .sectionTag {
-  color: #00d4ff;
+  color: #05aeff;
 }
 
 .notebook h2 {
-  color: #ffffff;
+  color: #3c3a5c;
 }
 
 .notebook .writingSection-intro p {
-  color: #e5fbff;
+  color: #3c3a5c;
 }
 
 .notebook .writingsBtn {
-  background: #00d4ff;
-  color: #0a2540;
+  background: #05aeff;
+  color: #ffffff;
 }
 
 .notebook .writingsBtn:hover {
@@ -301,15 +296,15 @@ form button:hover {
 }
 
 .notebook h4 {
-  color: #ffffff;
+  color: #3c3a5c;
 }
 
 .notebook .time {
-  color: #00d4ff;
+  color: #3c3a5c;
 }
 
 .notebook .author {
-  color: #e5fbff;
+  color: #05aeff;
 }
 
 .notebook h5 {
@@ -367,16 +362,16 @@ form button:hover {
 
 footer {
   padding: 50px 30px;
-  background: #eaf0fa;
+  background: #120937;
+  color: #ffffff;
 }
 
 footer .signingOff h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: clamp(16px, 1.25vw, 18px);
+  line-height: clamp(21px, 1.6666666666666667vw, 23px);
   letter-spacing: 0.1em;
-  color: #120937;
 }
 
 footer .socialMedia {
@@ -394,6 +389,7 @@ footer .signingOff .socialMedia img {
 footer .signingOff .socialMedia .twitterIcon {
   width: 20.81px;
   height: 16.92px;
+  color: white;
 }
 
 footer .footerLinks {
@@ -408,7 +404,6 @@ footer .footerLinks h6 {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
-  color: #120937;
 }
 
 .footerLinks h6:nth-of-type(5) {
@@ -432,25 +427,24 @@ footer .copyright {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: #120937;
 }
 
 @media (min-width: 800px) {
   .intro {
-    padding: 3vw 7vw 9vw;
+    padding: 0px;
+  }
+
+  header {
+    padding: 2.0833333333333335vw 8.333333333333334vw;
   }
 
   .nav-menu {
     display: inline-block;
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    font-size: max(14px, 1.11vw);
+    font-size: max(14px, 1.1111111111111112vw);
     line-height: 23px;
     letter-spacing: 0.1em;
-  }
-
-  .name {
-    font-size: max(14px, 1.11vw);
   }
 
   .menu-icon {
@@ -458,6 +452,8 @@ footer .copyright {
   }
 
   .container-intro {
+    padding: 0px 13.88888888888889vw;
+    margin-top: 4.305555555555555vw;
     text-align: left;
     display: grid;
     grid-template-columns: 1.07fr 0.93fr;
@@ -465,127 +461,90 @@ footer .copyright {
   }
 
   .container-intro h1 {
-    font-size: max(40px, 4.16vw);
-    line-height: 5.4vw;
+    line-height: 4.666666666666667vw;
   }
 
   .container-intro p {
-    margin-top: 1.4vw;
-    font-size: max(14px, 1.25vw);
+    margin-top: 0.6944444444444444vw;
+    font-size: max(16px, 1.25vw);
     line-height: max(26px, 2.083vw);
   }
 
   .illustration-intro {
     grid-row: 1/3;
     grid-column: 2/3;
+    display: flex;
+    align-items: flex-end;
   }
 
   .illustration-intro > img {
     width: 100%;
     margin: 0px 0px;
     max-width: none;
+    min-width: 300px;
   }
 
   /* All clear tiil now */
 
   .emailSubscription {
-    align-self: flex-end;
-  }
-
-  .intro-intro {
-    align-self: flex-end;
+    margin-top: 2.0833333333333335vw;
   }
 
   .emailSubscription form {
     grid-template-columns: 3fr 1fr;
-    grid-gap: 1.38vw;
+    /* grid-gap: 1.38vw; */
+    margin-bottom: 5.555555555555555vw;
   }
 
   form input {
     text-align: left;
-    padding: 1.04vw 1.45vw;
-    font-size: max(14px, 1.11vw);
-    height: 4.16vw;
-    border-radius: 0.56vw;
+    padding: 0.8333333333333334vw 1.3888888888888888vw;
+    border-radius: 0.6944444444444444vw;
   }
 
   form button {
-    font-size: max(14px, 1.11vw);
-    padding: 1.04vw 2.08vw;
-    height: 4.16vw;
-    border-radius: 0.56vw;
+    padding: 0.7638888888888888vw 1.0416666666666667vw;
+    border-radius: 0.6944444444444444vw;
   }
-
-  /* Abrubtly starting mongraph section */
 
   .monograph,
   .notebook {
     display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    padding: 4.166666666666667vw 13.88888888888889vw;
+    grid-column-gap: 5.208333333333333vw;
+  }
+
+  .allPosts {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5.55vw 7vw;
-    grid-column-gap: 10.41vw;
-  }
-
-  .writingSection-intro .sectionTag {
-    font-size: max(14px, 1.11vw);
-    font-weight: 600;
-  }
-
-  .writingSection-intro h2 {
-    font-size: max(23px, 2.63vw);
-    font-weight: 600;
+    grid-column-gap: 2.7777777777777777vw;
   }
 
   .writingSection-intro p {
-    font-size: max(14px, 1.25vw);
-    line-height: max(25px, 2.22vw);
-    margin-top: 2.08vw;
-    font-weight: 300;
+    margin-top: 0.6944444444444444vw;
   }
 
   .writingsBtn {
-    font-size: max(14px, 1.11vw);
-    margin-top: 3.47vw;
-    padding: 12px 26px;
-    font-weight: 400;
+    border-radius: 00.6944444444444444vw;
+    margin-top: 1.3888888888888888vw;
+    padding: 0.8333333333333334vw 1.8055555555555556vw;
   }
 
-  .latest {
-    margin-top: 3.125vw;
-  }
-
-  .latest h5 {
-    font-size: max(16px, 1.53vw);
-    line-height: 2.29vw;
-    font-weight: 600;
-  }
-
-  .latest h6 {
-    font-size: max(14px, 1.25vw);
-    line-height: max(25px, 1.736vw);
-    font-weight: 300;
-    margin-top: 1.04vw;
-    display: inline-block;
-  }
-
-  .post {
-    /* Matlab ye karke to maja hi aagaya! */
+  /* .post {
     grid-column: 2/3;
     grid-row: 1/3;
-  }
+  } */
 
   .post h4 {
-    font-size: max(16px, 1.53vw);
-    line-height: max(25px, 2.22vw);
-    margin-top: 2.08vw;
-    font-weight: 600;
+    line-height: max(23.44px, 1.875vw);
+    margin-top: 1.0416666666666667vw;
   }
 
   .post .time,
   .post .author {
-    font-size: max(14px, 1.11vw);
-    line-height: max(25px, 2.22vw);
-    font-weight: 300;
+    margin-top: 0.3472222222222222vw;
+    line-height: max(20px, 1.6666666666666667vw);
   }
 
   .picture {
@@ -594,34 +553,28 @@ footer .copyright {
   }
 
   footer {
-    padding: 7vw 7vw;
+    padding: 4.166666666666667vw 13.88888888888889vw;
     display: grid;
     grid-template-columns: 40% 60%;
     grid-auto-rows: minmax(100px, auto);
   }
 
-  footer .signingOff h3 {
-    font-size: max(16px, 1.25vw);
-    line-height: max(21px, 1.6vw);
-  }
-
   footer .footerLinks h6 {
-    font-size: max(16px, 1.25vw);
-    line-height: max(25px, 2.22vw);
+    line-height: 1.4583333333333333vw;
   }
 
   footer .copyright {
-    font-size: max(16px, 1.25vw);
-    line-height: max(21px, 2.22vw);
-    /* padding-bottom: 3px; */
-    padding-bottom: 0.35vw;
+    margin-top: 0px;
+    position: relative;
+    bottom: 29%;
     align-self: flex-end;
   }
 
   footer .footerLinks {
     max-width: max(400px, 27.8vw);
-    margin-top: 40px;
+    margin-top: 0px;
     grid-column: 2/3;
     grid-row: 1/3;
+    grid-row-gap: 0px;
   }
 }
